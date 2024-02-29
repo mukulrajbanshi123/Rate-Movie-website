@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar .navbar-nav .nav-link {
+  margin-right: 1.5rem;
+}
+
+.carousel .carousel-item {
+  height: 100%;
+}
+.carousel .carousel-inner .carousel-item img {
+  object-fit: cover;
+  height: 50vh;
+}
+.carousel {
+  margin-top: 56px;
+}
+.bg-gray {
+  background-color: #f2f2f2;
+}
+.destination-section {
+  background-color: #383838;
+}
+.destination-section .bookdes {
+  border-radius: 0;
+  border: 0;
+  outline: none;
+  padding: 10px 15px;
+  background-color: #cd3143;
+  color: #ffff;
+  font-weight: 600;
+  text-decoration: none;
+}
+.destination-section .bookdes:hover {
+  background-color: #c12c3d;
+}
+.footer {
+  background-color: #2a2a2a;
+}
+.footer .row ul {
+  text-decoration: none;
+  padding: 0;
+}
+.footer .row ul li {
+  list-style: none;
+  margin-top: 10px;
+}
+.about,
+.gallery,
+.contact {
+  margin-top: 75px;
+}
+.about .row p {
+  margin-bottom: 5px;
+}
+.destination {
+  margin-top: 80px;
+}
+.destination .row .img-cont {
+  overflow: hidden;
+}
+.destination .row .img-cont img {
+  transition: transform 0.5s ease;
+}
+.destination .row .img-cont:hover img {
+  transform: scale(1.1);
+}
+.contact .form input,
+textarea {
+  width: 100%;
+  padding: 10px 15px;
+  outline: none;
+  border: none;
+  margin: 5px 0;
+  background-color: #f9f9f9;
+  border: 1px solid #e0dfdf;
+}
+.contact .form textarea {
+  resize: none;
+  margin: 5px 0;
+}
+.contact .form .submit {
+  padding: 10px 45px;
+  outline: none;
+  border: none;
+  margin: 5px 0;
+  background-color: #02c0cd;
+  color: #ffff;
+}
+.contact .row p {
+  margin-bottom: 5px;
+}
